@@ -1,0 +1,17 @@
+
+function setup() {
+  createCanvas(500, 500);
+  // The createCanvas() function has three parameters;
+  // the first sets the width of the drawing canvas, the second sets the height
+  // and the third is the type of rendering (we will cover this later).
+  // createCanvas must be the first statement in our sketch
+  // let us make it responsive by asking the computer to find and use the screen size.
+  background(255);
+  // Set line drawing color to white (any number between 0 and 255 see what happens!)
+}
+
+function draw() {
+  ellipse(200, 200, 80, 80);
+}
+
+
